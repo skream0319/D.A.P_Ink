@@ -1,10 +1,10 @@
 import React , {useContext} from "react"
-import {Title} from "../pages/index"
+import {HeaderTitle} from "../pages/index"
 
 const PageTitle = () => {
-    const title = useContext(Title)
+    const headertitle = useContext(HeaderTitle)
     return (
-        <h1>{title}</h1>
+        <h1>{headertitle}</h1>
     ) 
 }
 
