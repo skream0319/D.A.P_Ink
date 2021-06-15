@@ -1,10 +1,10 @@
 import React from "react"
 import Layout from "../components/Layout"
-import Meta from "../components/Meta"
+import { Meta } from "../components/index"
 
 export const HeaderTitle = React.createContext()
 
-const Home = () => {
+const indexPage = () => {
   return ( 
     <HeaderTitle.Provider value={"D.A.P_Ink"}>
     <Layout>
@@ -18,4 +18,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default indexPage

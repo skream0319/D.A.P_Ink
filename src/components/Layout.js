@@ -1,16 +1,15 @@
 import React from "react"
-import Navbar from "./Navbar"
-import Footer from "./Footer"
-import PageTitle from "./PageTitle"
+import { Navbar,PageTitle,Footer } from "./index"
+import "../scss/Layout.scss"
 
 const Layout = ({ children }) => {
     return (
-        <React.Fragment>
+        <div className="container">
             <Navbar />
             <PageTitle />
             { children }
             <Footer />
-        </React.Fragment>
+        </div>
     )
 }
 

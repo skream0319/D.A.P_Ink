@@ -1,0 +1,10 @@
+@import "colors";
+
+.page_title_wrapper {
+    position: absolute;
+    top: 0;
+    left: 85vw;
+    .page_title {
+        font-size: 4rem;
+    }
+}
