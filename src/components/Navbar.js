@@ -1,6 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import "../scss/Navbar.scss"
+import Logo from "../components/StaticImages/Logo"
 
 const Navbar = ( props ) => {
     //ナビメニューに表示するリンク
@@ -49,7 +50,7 @@ const Navbar = ( props ) => {
                 </ul>
             </nav>
             <div className="nav_logo_wrapper">
-                <div className="nav_logo"><Link to="/">img</Link></div>
+                    <Link to="/"><Logo/></Link>
             </div>
         </div>
     )
