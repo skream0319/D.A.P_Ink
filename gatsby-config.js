@@ -7,6 +7,13 @@
 module.exports = {
   /* Your site config here */
   plugins: [
+            {
+              resolve: `gatsby-source-filesystem`,
+              options: {
+                name: `images`,//ソース名
+                path: `${__dirname}/src/images`,//ファイルの置き場所
+              },
+            },
             `gatsby-plugin-sass`,
             `gatsby-plugin-react-helmet`,
             //favicon用
