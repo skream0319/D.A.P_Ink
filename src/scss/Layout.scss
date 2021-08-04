@@ -1,27 +1,14 @@
 @import "colors";
-
-//すべてのスタイルに適用
-html {
-    background-color: $main_color;
-    color: $font_main;
-    font-size: 62.5%;
-    font-family: monospace;
-    margin: 0;
-    padding: 0;
-    border: 0;
-}
+@import "media";
 
 //共通レイアウト
 .container {
-    max-width: 100vw;
-    min-height: 100vh;
-    overflow: hidden;
-    display: flex;
     position: relative;
-    top: 0;
-    right: 0;
-    overflow: hidden;
-    
+    height: 98vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 

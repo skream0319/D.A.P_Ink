@@ -24,7 +24,7 @@ module.exports = {
                 start_url: "/",
                 background: "#808080",
                 display: "standalone",
-                icon: "src/images/favicon.png"
+                icon: "src/images/logo.png"
               },
             },
             //image用

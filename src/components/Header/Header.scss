@@ -1,0 +1,10 @@
+@import "../../scss/colors";
+
+header {
+    height: 5vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+}

@@ -1,10 +1,79 @@
 @import "colors";
+@import "media";
 
-.page_title_wrapper {
-    position: absolute;
-    top: 0;
-    left: 85vw;
-    .page_title {
-        font-size: 4rem;
+.wrp {
+  display: flex;
+  justify-content: center;
+  @include pc {
+    width: 100%;
+    align-items: center;
+  }
+  @include tab {
+    flex-direction: column;
+  }
+  @include sp {
+    flex-direction: column;
+  }
+  .logo_wrp {
+    width: 100%;
+    @include pc {
+      width: 25%;
     }
+    @include sp {
+      margin-top: 5rem;
+    }
+  }
+  .text_wrp {
+    display: flex;
+    flex-direction: column;
+    @include pc {
+      margin-left: 5rem;
+      margin-top: 12.5rem;
+    }
+    @include tab {
+      margin-top: 5rem;
+    }
+    @include sp {
+      margin-top: 7.5rem;
+    }
+  }
+  .text_1 {
+    font-family: "ヒラギノ明朝 ProN W3";
+    font-weight: bolder;
+    font-size: 2.5rem;
+    letter-spacing: 0.75rem;
+    margin: 1rem 0 1rem 0;
+    @include sp {
+      font-size: 2rem;
+    }
+  }
+  .text_2 {
+    font-family: "Times New Roman";
+    font-weight: bold;
+    font-size: 4.5rem;
+    margin: 1rem 0 1rem 0;
+    @include sp {
+        font-size: 4rem;
+    };
+  }
+  .text_3 {
+    font-family: "ヒラギノ明朝 ProN W3";
+    font-size: 1.5rem;
+    margin: 1rem 0 5rem 0;
+    line-height: 2;
+    @include sp {
+        font-size: 1rem;
+    };
+  }
+  .text_4 {
+    font-family: "ヒラギノ明朝 ProN W3";
+    letter-spacing: 0.75rem;
+    font-size: 1rem;
+    margin: 0;
+  }
+  .text_5 {
+    font-family: cursive;
+    font-size: 2rem;
+    margin: 0;
+  }
 }

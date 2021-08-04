@@ -2,7 +2,7 @@ import React from "react"
 import { Helmet } from "react-helmet"
 
 const Meta = ( props ) => {
-    const baseTitle = "D.A.P - ダップ | 店舗デザイン"
+    const baseTitle = "D.A.P Ink."
     const title = props.title ? `${props.title} | ${baseTitle}` : baseTitle
 
     return (

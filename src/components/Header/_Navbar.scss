@@ -1,0 +1,27 @@
+@import "../../scss/colors";
+@import "../../scss/media";
+
+.nav_bar_wrapper {
+    margin-right: 3rem;
+    margin-top: 1.5rem;
+}
+
+.nav_bar_item {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    li {
+        font-size: 1.5rem;
+        padding: 1rem 2rem 1rem 2rem;
+        margin: 0rem 0.5rem 0rem 0.5rem;
+        border-top: 1px solid #5D5B5A;
+        &:hover {
+            border-top: 3px solid #B38101;
+            opacity: 0.5;
+        }
+        &:active {
+            border-top: 3px solid #5D5B5A;
+        }
+    }
+}
+
