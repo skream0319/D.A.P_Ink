@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-import "./_navbar.scss"
+import "./navbar.scss"
 
 const Navbar = ( props ) => {
     //ナビメニューに表示するリンク
