@@ -1,12 +1,14 @@
-@import "../../scss/colors";
 @import "../../scss/media";
 
 .nav_bar_wrapper {
-    margin-right: 3rem;
+    margin-right: 2.5vw;
     margin-top: 1.5rem;
+    @include sp {
+        display: none;
+    }
 }
 
-.nav_bar_item {
+.nav_bar {
     display: flex;
     list-style: none;
     text-decoration: none;
@@ -24,4 +26,3 @@
         }
     }
 }
-

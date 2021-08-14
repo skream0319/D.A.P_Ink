@@ -1,5 +1,14 @@
+@import "../../scss/media";
+
 .logo_wrapper {
-    width: 4vw;
-    margin-left: 3rem;
-    margin-top: 1.5rem;
+    @include any {
+        width: 4.5vw;
+        margin-top: 1.5vh;
+        margin-left: 2.5vw;
+    }
+    @include sp {
+        width: 14vw;
+        margin-top: 1.5vh;
+        margin-left: 4.5vw;
+    }
 }

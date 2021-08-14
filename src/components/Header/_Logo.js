@@ -1,6 +1,6 @@
 import React from "react"
 import { StaticImage } from "gatsby-plugin-image"
-import "./_Logo.scss"
+import "./_logo.scss"
 import { Link } from "gatsby"
 
 const Logo = () => {

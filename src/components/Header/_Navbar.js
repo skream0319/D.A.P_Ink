@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-import "./_Navbar.scss"
+import "./_navbar.scss"
 
 const Navbar = ( props ) => {
     //ナビメニューに表示するリンク
@@ -35,11 +35,13 @@ const Navbar = ( props ) => {
     });
 
     return(
+        <React.Fragment>
             <nav className="nav_bar_wrapper">
-                <ul className="nav_bar_item">
+                <ul className="nav_bar">
                     { NaviMenuLink }
                 </ul>
             </nav>
+        </React.Fragment>    
     )
 }
 

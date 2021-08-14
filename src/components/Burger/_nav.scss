@@ -1,0 +1,44 @@
+@import "../../scss/media";
+
+.drawerActive {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 100vw;
+    height: 100vh;
+    color: white;
+    background-color: white;
+    transition: all .5s;
+    opacity: 0;
+    z-index: -100;
+}
+
+.drawerActive[aria-expanded="true"] {
+    right: 0;
+    opacity: 1;
+    z-index: 100;
+}
+
+ul {
+    width: 100%;
+    height: 50%;
+    margin-top: 10vh;
+    margin-bottom: 0;
+}
+
+ul , li {
+    padding: 0;
+}
+
+.m-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    .m-title {
+        font-size: 3.5rem;
+    }
+}
+
+
+
