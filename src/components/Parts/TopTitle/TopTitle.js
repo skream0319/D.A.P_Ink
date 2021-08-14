@@ -4,11 +4,11 @@ import "./TopTitle.scss"
 
 
 
-const PageTitle = () => {
+const TopTitle = () => {
     return (
         <div className="wrp">
             <StaticImage 
-                src="../images/name_logo.png"
+                src="../../../images/name_logo.png"
                 alt="D.A.P"
                 layout="fullWidth"
                 className="logo_wrp"
@@ -25,4 +25,4 @@ const PageTitle = () => {
     ) 
 }
 
-export default PageTitle
+export default TopTitle
