@@ -1,5 +1,7 @@
-@import "../../scss/media";
+@import "../../../../scss/colors";
+@import "../../../../scss/media";
 
+// logo.js
 .logo_wrapper {
     @include any {
         width: 4.5vw;

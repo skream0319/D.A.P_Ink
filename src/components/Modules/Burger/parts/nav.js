@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from "gatsby";
-import "./_nav.scss"
 
 
 const Nav = ({ open, setOpen }) => {

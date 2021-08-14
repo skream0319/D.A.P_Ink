@@ -1,6 +1,10 @@
 import React, { useState } from 'react';
-import Burger from './_burger';
-import Nav from './_nav';
+import Burger from './parts/burger';
+import Nav from './parts/nav';
+//sass
+import './styles/burger.scss';
+import './styles/nav.scss';
+
 
 const BurgerMenu = () => {
     const [open, setOpen] = useState(false);

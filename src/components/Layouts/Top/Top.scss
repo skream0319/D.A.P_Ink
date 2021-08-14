@@ -1,11 +1,11 @@
-@import "colors";
-@import "media";
+@import "../../../scss/colors";
+@import "../../../scss/media";
 
 //共通レイアウト
 .container {
     position: relative;
     height: 98vh;
-    width: 100%;
+    width: 100vw;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
