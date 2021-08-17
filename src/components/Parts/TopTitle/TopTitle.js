@@ -3,16 +3,16 @@ import { StaticImage } from "gatsby-plugin-image"
 import "./TopTitle.scss"
 
 
-
 const TopTitle = () => {
     return (
         <div className="wrp">
-            <StaticImage 
-                src="../../../images/name_logo.png"
-                alt="D.A.P"
-                layout="fullWidth"
-                className="logo_wrp"
-            />
+            <div className="img_wrp">
+                <StaticImage 
+                    src="../../../images/name_logo.png"
+                    alt="D.A.P"
+                    layout="fullWidth"
+                />
+            </div>
             <div className="text_wrp">
                 <p className="text_1">あなたの隣に並ぶ。</p>
                 <p className="text_2">Line up next to You.</p>

@@ -3,14 +3,14 @@
 
 // logo.js
 .logo_wrapper {
+    margin-top: 1.5vh;
+    padding: 0;
     @include any {
         width: 4.5vw;
-        margin-top: 1.5vh;
         margin-left: 2.5vw;
     }
     @include sp {
-        width: 14vw;
-        margin-top: 1.5vh;
+        width: 12vw;
         margin-left: 4.5vw;
     }
 }
