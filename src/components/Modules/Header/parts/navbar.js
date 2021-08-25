@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 
 const Navbar = ( props ) => {
     //ナビメニューに表示するリンク
-    const NavMenuItem = ["Top","About", "Project", "Contact"];
+    const NavMenuItem = ["TOP","ABOUT", "PROJECT", "CONTACT"];
 
     //ナビメニューのデフォルトスタイル
     const LinkStyle = {

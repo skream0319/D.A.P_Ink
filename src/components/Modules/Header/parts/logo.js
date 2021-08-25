@@ -7,7 +7,7 @@ const Logo = () => {
         <div className="logo_wrapper">
             <Link to="/">
                 <StaticImage
-                    src="../../../../images/logo.png"
+                    src="../../../assets/images/logo.png"
                     alt="D.A.P_Logo"
                     layout="fullWidth"
                 />

@@ -8,7 +8,7 @@ const TopTitle = () => {
         <div className="wrp">
             <div className="img_wrp">
                 <StaticImage 
-                    src="../../../images/name_logo.png"
+                    src="../../assets/images/name_logo.png"
                     alt="D.A.P"
                     layout="fullWidth"
                 />

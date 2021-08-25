@@ -5,7 +5,7 @@ import "./Top.scss"
 
 const Top = ({ children }) => {
     return (
-        <div className="container">
+        <div className="c-top">
             <Header />
             <BurgerMenu />
             <TopTitle />

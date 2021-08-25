@@ -1,0 +1,39 @@
+@import "../../../scss/media";
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.a-top {
+    width: 100%;
+    height: 100%;
+
+}
+
+// topTitle.js
+.a-page-top {
+    width: 100%;
+    text-align: center;
+    margin: 24rem 0 12rem 0;
+    .a-page-top__title {
+        font-size: 10rem;
+        margin-bottom: 1.5rem;
+    }
+    .a-page-top__subtitle {
+        font-size: 2.5rem;
+    }
+}
+
+// topVideo.js
+.a-video__wrp {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    video {
+        width: 75%;
+        max-width: 100%;
+    }
+}
+
+

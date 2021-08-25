@@ -2,9 +2,13 @@
 header {
     height: 5vh;
     width: 100%;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: fixed;
+    top: 0;
+    background-color: white;
 }
 
