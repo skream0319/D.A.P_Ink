@@ -1,5 +1,5 @@
 import React from "react"
-import AboutTop from "../../Modules/AboutTop/AboutTop"
+import { AboutTop,AboutLead} from "../../Modules/index"
 import { Header } from "../../Modules/index"
 import "./AboutPage.scss"
  
@@ -8,6 +8,7 @@ const AboutPage = ({ children }) => {
         <div className="a-containar">
             <Header/>
             <AboutTop/>
+            <AboutLead/>
             { children }
         </div>
     )
