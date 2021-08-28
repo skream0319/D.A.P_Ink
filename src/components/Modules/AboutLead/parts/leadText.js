@@ -22,7 +22,11 @@ const LeadText = () => {
 
             <p className="a-leadtext__item">
                 そのため我々の店舗デザインには見えない所も含め全てにヒトの意思があり意図があるのです。
-            </p>    
+            </p>
+
+            <p　className="a-leadtext__director">代表取締役</p>
+
+            <p　className="a-leadtext__name">飛賀 太智</p>    
         </div>
     )
 }
