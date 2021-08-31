@@ -11,7 +11,7 @@ module.exports = {
               resolve: `gatsby-source-filesystem`,
               options: {
                 name: `images`,//ソース名
-                path: `${__dirname}/src/images`,//ファイルの置き場所
+                path: `${__dirname}/src/components/assets/images`,//ファイルの置き場所
               },
             },
             `gatsby-plugin-sass`,
@@ -24,7 +24,7 @@ module.exports = {
                 start_url: "/",
                 background: "#808080",
                 display: "standalone",
-                icon: "src/images/logo.png"
+                icon: "src/components/assets/images/logo.png"
               },
             },
             //image用
